@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    margin: 5%;
+    margin: 0 7.5% 0 7.5%;
     background: #0a0a0a;
     color: #c0c0c0;
 }
@@ -40,12 +40,15 @@ body {
 
 h1 {
     font-family: "cheddar-gothic-rough", sans-serif;
-    font-size: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
     font-family: karol-sans-regular, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 img {
@@ -54,6 +57,17 @@ img {
 }
 
 div.logo-wrapper {
-    width: 50%;
-    margin: 0 auto
+    width: 80%;
+    margin: 0 auto;
 }
+
+div.albums {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
