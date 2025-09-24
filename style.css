@@ -18,8 +18,17 @@ body {
     src: url('fonts/CheddarGothicRough-Regular.otf') format('truetype');
 }
 
+@font-face {
+    font-family: "karol-sans-regular", "karol-sans-bold", "karol-sans-regular-italic";
+    src: url('fonts/CheddarGothicRough-Regular.otf') format('truetype');
+}
+
 h1 {
     font-family: "cheddar-gothic-rough", sans-serif;
+}
+
+p {
+    font-family: "karol-sans-regular", sans-serif;
 }
 
 img {
