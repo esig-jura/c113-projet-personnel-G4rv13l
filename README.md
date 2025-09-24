@@ -4,9 +4,9 @@
 ## 1. 🎨 Présentation du projet
 
 ### Concept
-- Thème choisi : …
-- Public cible : …
-- Objectifs du site : …
+- Thème choisi : Groupe de heavy metal, Judas Priest
+- Public cible : Des néophytes au genre/groupe
+- Objectifs du site : Présenter le groupe et son influence sur le genre.
 
 ### Fonctionnalités prévues
 - Navigation : …
@@ -35,10 +35,10 @@
 ## 3. 🛠️ Outils et méthodologie
 
 ### Environnement de travail
-- IDE : …
-- Navigateurs de test : …
+- IDE : Webstorm
+- Navigateurs de test : Edge
 - Versioning : Git + GitHub
-- Validation : Validator W3C, PageSpeed Insights, Wave
+- Validation : Validator W3C, PageSpeed Insights, GTMetrix
 
 ### Méthodologie
 - Approche mobile-first
