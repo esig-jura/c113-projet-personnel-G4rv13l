@@ -1,1 +1,33 @@
-/* Palette :  https://coolors.co/0a0a0a-c0c0c0-9e1b32-d4af37-0072b5 */
+/* Palette :  https://coolors.co/0a0a0a-c0c0c0-9e1b32-d4af37-0072b5
+
+ Fond                                   : #0a0a0a
+ Titres, bordures, effets métalliques   : #c0c0c0
+ Accents, boutons, liens                : #9e1b32
+ Surbrillance, icônes                   : #d4af37
+ Fond des sections, call to action      : #0072b5
+ */
+
+body {
+    margin: 5%;
+    background: #0a0a0a;
+    color: #c0c0c0;
+}
+
+@font-face {
+    font-family: "cheddar-gothic-rough";
+    src: url('fonts/CheddarGothicRough-Regular.otf') format('truetype');
+}
+
+h1 {
+    font-family: "cheddar-gothic-rough", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.logo-wrapper {
+    width: 50%;
+    margin: 0 auto
+}
