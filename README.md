@@ -4,8 +4,8 @@
 ## 1. 🎨 Présentation du projet
 
 ### Concept
-- Thème choisi : Groupe de heavy metal, Judas Priest
-- Public cible : Des néophytes au genre/groupe
+- Thème choisi : Groupe de heavy metal, Judas Priest.
+- Public cible : Des néophytes au genre/groupe.
 - Objectifs du site : Présenter le groupe et son influence sur le genre.
 
 ### Fonctionnalités prévues
