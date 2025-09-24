@@ -7,6 +7,11 @@
  Fond des sections, call to action      : #0072b5
  */
 
+html {
+    /* Définition taille de base, recalibrage avec les rem*/
+    font-size: 16px;
+}
+
 body {
     margin: 5%;
     background: #0a0a0a;
@@ -19,16 +24,28 @@ body {
 }
 
 @font-face {
-    font-family: "karol-sans-regular", "karol-sans-bold", "karol-sans-regular-italic";
-    src: url('fonts/CheddarGothicRough-Regular.otf') format('truetype');
+    font-family: "karol-sans-regular";
+    src: url('fonts/Karol_Sans_Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "karol-sans-bold";
+    src: url('fonts/Karol_Sans_Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "karol-sans-regular-italic";
+    src: url('fonts/Karol_Sans_Regular_Italic.otf') format('truetype');
 }
 
 h1 {
     font-family: "cheddar-gothic-rough", sans-serif;
+    font-size: 5rem;
 }
 
 p {
-    font-family: "karol-sans-regular", sans-serif;
+    font-family: karol-sans-regular, sans-serif;
+    font-size: 2rem;
 }
 
 img {
