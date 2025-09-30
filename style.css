@@ -42,16 +42,22 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "cheddar-gothic-rough", sans-serif;
 }
 
-ol, ul, li, p {
-    font-family: karol-sans-regular, sans-serif;
-}
-
 h1 {
     font-size: 2.5rem;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+h2 {
+    font-size: 2.25rem;
+}
+
+ol, ul, li, p {
+    font-family: karol-sans-regular, sans-serif;
+}
+
+
 
 p {
     font-size: 1.5rem;
