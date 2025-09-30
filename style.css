@@ -59,7 +59,7 @@ ol, ul, li, p {
 
 
 
-p {
+p, li{
     font-size: 1.5rem;
 }
 
