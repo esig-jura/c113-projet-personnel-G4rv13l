@@ -38,8 +38,15 @@ body {
     src: url('fonts/Karol_Sans_Regular_Italic.otf') format('truetype');
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6, ol, ul, li {
     font-family: "cheddar-gothic-rough", sans-serif;
+}
+
+ol, ul, li, p {
+    font-family: karol-sans-regular, sans-serif;
+}
+
+h1 {
     font-size: 2.5rem;
     text-align: center;
     margin-top: 50px;
@@ -47,7 +54,6 @@ h1 {
 }
 
 p {
-    font-family: karol-sans-regular, sans-serif;
     font-size: 1.5rem;
 }
 
