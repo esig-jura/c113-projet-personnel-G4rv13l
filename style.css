@@ -63,6 +63,17 @@ p, li{
     font-size: 1.5rem;
 }
 
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding : 0;
+}
+
+li::before {
+    content: "🤘";
+    margin-right: 2%;
+}
+
 img {
     max-width: 100%;
     height: auto;
