@@ -38,7 +38,7 @@ body {
     src: url('fonts/Karol_Sans_Regular_Italic.otf') format('truetype');
 }
 
-h1, h2, h3, h4, h5, h6, ol, ul, li {
+h1, h2, h3, h4, h5, h6 {
     font-family: "cheddar-gothic-rough", sans-serif;
 }
 
