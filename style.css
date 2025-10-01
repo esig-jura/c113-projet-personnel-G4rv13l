@@ -7,17 +7,7 @@
  Fond des sections, call to action      : #0072b5
  */
 
-html {
-    /* Définition taille de base, recalibrage avec les rem*/
-    font-size: 16px;
-}
-
-body {
-    margin: 0 7.5% 0 7.5%;
-    background: #0a0a0a;
-    color: #c0c0c0;
-}
-
+/* Import des polices*/
 @font-face {
     font-family: "cheddar-gothic-rough";
     src: url('fonts/CheddarGothicRough-Regular.otf') format('truetype');
@@ -38,6 +28,21 @@ body {
     src: url('fonts/Karol_Sans_Regular_Italic.otf') format('truetype');
 }
 
+/* Structure principale */
+
+html {
+    /* Définition taille de base, recalibrage avec les rem*/
+    font-size: 16px;
+}
+
+body {
+    margin: 0 7.5% 0 7.5%;
+    background: #0a0a0a;
+    color: #c0c0c0;
+}
+
+/* Styles de titres */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "cheddar-gothic-rough", sans-serif;
 }
@@ -53,27 +58,50 @@ h2 {
     font-size: 2.25rem;
 }
 
-ol, ul, li, p {
+/* Style de textes */
+ol, ul, li, p, figure {
     font-family: karol-sans-regular, sans-serif;
 }
-
-
 
 p, li{
     font-size: 1.5rem;
 }
 
-ul, li {
+p.footer-credits {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Coloration des textes gras et italiques */
+p b, i{
+    color : #d4af37;
+}
+
+/* Listes à puces custom */
+ul {
+    margin: 10px 0;
+    padding: 0;
+}
+
+li {
     list-style: none;
     margin: 0;
-    padding : 0;
+    position: relative;
+    padding-left : 2rem;
 }
 
 li::before {
-    content: "🤘";
-    margin-right: 2%;
+    content: "🤘";         /* Emoji personnalisé */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.5em;         /* Largeur fixe pour l'emoji */
+    height: 1.5em;        /* Hauteur fixe */
+    line-height: 1.5em;   /* Alignement vertical */
 }
 
+
+/* Images */
 img {
     max-width: 100%;
     height: auto;
@@ -86,11 +114,10 @@ div.logo-wrapper {
 
 div.albums {
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-
 
