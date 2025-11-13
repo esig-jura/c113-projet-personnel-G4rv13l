@@ -2,38 +2,40 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Judas Priest</title>
-    <meta name="viewport" content="width=device-width, initial-sca1e=1.O">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-<header>
+<!-- Navigation fixe -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="img/judas_priest_logo_orange.png" height="910" width="1500" alt="Logo du groupe Judas Priest.
+        Orange flamboyant/doré, aspect métalisé"/>
+    </div>
 
+    <input type="checkbox" id="menu-toggle">
 
-    <img src="img/judas_priest_logo_orange.png" height="910" width="1500" alt="Logo du groupe"/>
-    <input id="burger" type="checkbox" />
-
-    <label for="burger">
+    <label for="menu-toggle" class="burger">
         <span></span>
         <span></span>
         <span></span>
     </label>
 
-    <nav>
-        <ul>
-            <li><a href="#">Link #1</a></li>
-            <li><a href="#">Link #2</a></li>
-            <li><a href="#">Link #3</a></li>
-        </ul>
-    </nav>
-</header>
+    <ul class="menu">
+        <!-- Bouton de fermeture en croix -->
+        <label for="menu-toggle" class="close-btn">✕</label>
+
+        <!-- Les liens ferment le menu automatiquement -->
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="discography.html">Discographie</a></li>
+        <li><a href="members.html">Membres</a></li>
+    </ul>
+</nav>
+
+<!-- Contenu de la page -->
 <main>
-    <h1>Membres</h1>
+
 </main>
-<footer>
-    <hr>
-    <p class="footer-credits">2025 - aucun droits réservés</p>
-</footer>
 </body>
 </html>
