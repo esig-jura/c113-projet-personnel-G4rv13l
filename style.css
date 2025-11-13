@@ -315,7 +315,7 @@ footer p {
 /* Style des liens */
 .menu li a {
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s;
 }
 
 /* === ÉTATS DU MENU === */
