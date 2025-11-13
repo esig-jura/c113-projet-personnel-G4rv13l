@@ -2,19 +2,40 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Judas Priest</title>
-    <meta name="viewport" content="width=device-width, initial-sca1e=1.O">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style-test.css">
 </head>
 <body>
-<header></header>
-<main>
-    <div class="logo-wrapper">
+<!-- Navigation fixe -->
+<nav class="navbar">
+    <div class="logo">
         <img src="img/judas_priest_logo_orange.png" height="910" width="1500" alt="Logo du groupe Judas Priest.
         Orange flamboyant/doré, aspect métalisé"/>
     </div>
 
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <ul class="menu">
+        <!-- Bouton de fermeture en croix -->
+        <label for="menu-toggle" class="close-btn">✕</label>
+
+        <!-- Les liens ferment le menu automatiquement -->
+        <li><label for="menu-toggle"><a href="#accueil">Accueil</a></label></li>
+        <li><label for="menu-toggle"><a href="#about">À propos</a></label></li>
+        <li><label for="menu-toggle"><a href="#services">Services</a></label></li>
+        <li><label for="menu-toggle"><a href="#contact">Contact</a></label></li>
+    </ul>
+</nav>
+
+<!-- Contenu de la page -->
+<main>
     <h1>Un pilier du heavy metal depuis plus de 50 ans</h1>
 
     <p>Dans le milieu de la scène anglophone, on dit souvent que si Black Sabbath a produit le <b>heavy</b>, Judas
@@ -27,7 +48,7 @@
     <h2>Des débuts difficiles</h2>
 
     <p>Avant les scènes géantes et les disques d’or, le groupe a connu des années de précarité. Formé en 1969 à
-        Birmingham, le groupe enchaîne les petits concerts dans des pubs à moitié vides, souvent payés en bière plutôt
+        Birmingham, le groupe enchaîne les petits concerts dans des pubs à moitié vides, souvent payés en bières plutôt
         qu’en argent.</p>
 
     <p>Les membres cumulent les emplois alimentaires en usine ou chantiers, il leur arrive de sauter des repas pour
@@ -99,7 +120,7 @@
     <h2>Consécration mondiale</h2>
 
     <p>En 1982, le groupe sort l'album <i>Screaming For Vengeance</i> qui devient un monstre commercial :</p>
-    <ul>
+    <ul class="horns-bullets">
         <li>N°17 au billboard américain</li>
         <li>Disque de platine</li>
         <li>Des tubes inoubliables comme <i>You’ve Got Another Thing Comin</i> ou <i>Electric Eye</i></li>
@@ -111,10 +132,10 @@
         représente un aigle stylisé d'aspect mécanique attaquant en piqué"/>
         <figure>Screaming For Vengeance - 1982</figure>
     </div>
+    <footer>
+        <div class="bottom"></div>
+        <p>2025 - Aucun droit réservé</p>
+    </footer>
 </main>
-<footer>
-    <hr>
-    <p class="footer-credits">2025 - aucun droits réservés</p>
-</footer>
 </body>
 </html>
