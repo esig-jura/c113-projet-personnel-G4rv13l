@@ -322,7 +322,7 @@ footer p {
 
 /* Menu ouvert */
 #menu-toggle:checked ~ .menu {
-    right: 0; /* 🔥 Le menu glisse vers la droite */
+    right: 0; /* Le menu glisse vers la droite */
 }
 
 /* Cache le burger quand le menu est ouvert */
