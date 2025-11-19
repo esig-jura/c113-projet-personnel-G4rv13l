@@ -58,7 +58,7 @@ p, a, li {
 }
 
 .menu li a {
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .close-btn {
@@ -235,7 +235,7 @@ h2 {
 }
 
 p {
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 0;
 }
 
 div.bottom {
