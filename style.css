@@ -344,3 +344,40 @@ footer p {
     transform: rotate(-45deg) translate(8px, -8px);
 }
 
+/* Liste dépliante pour discographie */
+.accordeon {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .6s ease-in-out;
+    scroll-margin-top: 150px; /* Ajuste l'affichage selon la hauteur de ta navbar */
+}
+
+.accordeon ol {
+    padding-left: 25px; /* Ajuste entre 20px et 40px */
+}
+
+/* La div ciblée s’ouvre */
+.accordeon:target {
+    max-height: 1000px; /* suffisamment grand */
+    padding: 15px;
+}
+
+/* Style des titres cliquables */
+.album-title a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    padding: 8px 0;
+}
+
+.album-title a:hover {
+    text-decoration: underline;
+}
+
+p.album-title {
+    margin: .5rem 0 .5rem 0;
+}
+
+
+
