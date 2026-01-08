@@ -99,7 +99,7 @@ body {
 }
 
 .close-btn {
-    color: red;
+    color: #9E1B32;
 }
 
 p b, i{
@@ -147,7 +147,7 @@ ul.horns-bullets li {
 }
 
 ul.horns-bullets li::before {
-    content: "🤘";         /* Emoji personnalisé */
+    content: "🤘";         /* Emoji personnalisé pour la liste */
     position: absolute;
     left: 0;
     top: 0;
@@ -275,7 +275,7 @@ footer p {
 .menu {
     position: fixed;
     top: 0;
-    right: -100%; /* 🔥 Caché par défaut hors écran */
+    right: -100%; /* Caché par défaut hors écran */
     width: 70%;
     max-width: 300px;
     height: 100vh;

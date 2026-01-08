@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7MWuFRnf)
 # Mon Projet Web
 
 ## 1. 🎨 Présentation du projet
@@ -9,26 +8,16 @@
 - Objectifs du site : Présenter le groupe et son influence sur le genre
 
 ### Fonctionnalités prévues
-- Navigation : …
-- Sections principales : …
-- Contenus proposés : …
+- Navigation : Burger menu
+- Sections principales : Carrière et membres du groupe
+- Contenus proposés : Rétrospective sur le groupe
 
 ---
 
 ## 2. 📚 Parcours d'apprentissage
 
 ### Ressources utilisées
-- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.)
-- Vidéos / tutoriels suivis
-- Articles ou documentations consultés
-
-### Progression
-- Semaine 4 : …
-- Semaine 6 : …
-- Semaine 8 : …
-- Semaine 10 : …
-- Semaine 11 : …
-- Semaine 12 : …
+- Plateformes : Principalement l'IA Claude (Sonnet 4.5) pour me décrire certains sélecteurs et propriétés CSS
 
 ---
 
@@ -36,23 +25,23 @@
 
 ### Environnement de travail
 - IDE : Webstorm
-- Navigateurs de test : Edge
+- Navigateurs de test : Edge, Chrome
 - Versioning : Git + GitHub
-- Validation : Validator W3C, PageSpeed Insights, GTMetrix
+- Validation : Validator W3C, GTMetrix
 
 ### Méthodologie
 - Approche mobile-first
 - Commits réguliers et messages clairs
-- Tests sur plusieurs navigateurs et appareils
+- Tests sur plusieurs navigateurs
 
 ### Choix de design
 - Palette de couleurs :  
-  - Couleur principale : `#XXXXXX` – …
-  - Couleur secondaire : `#XXXXXX` – …
-  - Couleur d’accent : `#XXXXXX` – …
-  - Couleur de texte : `#XXXXXX` – …
-  - Couleur de fond : `#XXXXXX` – …
-- Lien vers palette générée : …
+  - Couleur principale : `#0A0A0A` – Onyx
+  - Couleur secondaire : `#333333` – Graphite
+  - Couleur d’accent : `#d4af37` – Or métalique
+  - Couleur de texte : `#C0C0C0` – Argent
+  - Couleur de fond : `#0A0A0A` – Onyx
+- Lien vers palette générée : https://coolors.co/0a0a0a-333333-c0c0c0-d4af37
 - Typographies :  
   - Titres : … (fichiers dans `/fonts`)  
   - Texte : … (fichiers dans `/fonts`)  
@@ -71,8 +60,8 @@
   - SEO : …/100  
 
 ### Compatibilité
-- Navigateurs testés : Chrome …, Firefox …, Safari …
-- Appareils testés : mobile, tablette, desktop
+- Navigateurs testés : Chrome , Edge, Firefox
+- Appareils testés : mobile, desktop
 
 ### Accessibilité
 - Attributs alt : ✅
@@ -86,8 +75,12 @@
 ## 5. 🤖 Usage de l’IA (si applicable)
 
 ### IA utilisée
-- Nom et version : …
-- Contexte : génération de code / debug / recherche / rédaction
+- Nom et version : Claude, Sonnet 4.5
+- Contexte : Génération de code, explications/vulgarisation
+
+### IA utilisée Bis :
+- Nom et version : ChatGpt, 5.1
+- Contexte : Aide à la rédaction du contenu
 
 ### Utilisation détaillée
 - Contenu généré avec l’IA : …
