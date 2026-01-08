@@ -43,7 +43,7 @@
   - Couleur de fond : `#0A0A0A` – Onyx
 - Lien vers palette générée : https://coolors.co/0a0a0a-333333-c0c0c0-d4af37
 - Typographies :  
-  - Titres : … (fichiers dans `/fonts`)  
+  - Titres : H1, H2 (fichiers dans `/fonts`)  
   - Texte : … (fichiers dans `/fonts`)  
 
 ---
