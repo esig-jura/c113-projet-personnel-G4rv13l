@@ -51,13 +51,18 @@
 ## 4. ✅ Tests et validation
 
 ### Validation technique
-- HTML Validator : résultat …
-- CSS Validator : résultat …
-- PageSpeed Insights :  
-  - Performance : …/100  
-  - Accessibilité : …/100  
-  - Bonnes pratiques : …/100  
-  - SEO : …/100  
+- HTML Validator : 1 erreur (lié au burger menu)
+- CSS Validator : aucune erreur
+- Note WAVE : 8.4 / 10
+- Résultats GTMetrix :  
+  - Note : A 
+  - Performance : 100 / 100  
+  - Structure  : 98 / 100
+- Résultat Page Speed :
+  - Performance : 98 / 100
+  - Accessibility : 92 / 100
+  - Best practices : 100 / 100
+  - SEO : 91 / 100
 
 ### Compatibilité
 - Navigateurs testés : Chrome , Edge, Firefox
@@ -66,7 +71,6 @@
 ### Accessibilité
 - Attributs alt : ✅
 - Hiérarchie des titres : ✅
-- Contraste couleurs : conforme WCAG
 - Navigation clavier : testée
 - Zoom 200% : lisible
 
@@ -83,13 +87,13 @@
 - Contexte : Aide à la rédaction du contenu
 
 ### Utilisation détaillée
-- Contenu généré avec l’IA : …
+- Contenu généré avec l’IA : menu burger interactif sans javascript
 - Explication et adaptation personnelle du code généré
 
 ### Proportion
-- Structure HTML : …% personnel / …% aidé
-- CSS : …% personnel / …% aidé
-- Responsive : …% personnel
+- Structure HTML : 95% personnel / 5% aidé
+- CSS : 95% personnel / 5% aidé
+- Responsive : 95% personnel
 - Tests et validation : 100% personnel
 
 ---

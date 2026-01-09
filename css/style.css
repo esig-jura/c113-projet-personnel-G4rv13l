@@ -15,22 +15,22 @@
 /* Import des polices*/
 @font-face {
     font-family: "cheddar-gothic-rough";
-    src: url('fonts/CheddarGothicRough-Regular.otf') format('truetype');
+    src: url('../fonts/CheddarGothicRough-Regular.otf') format('truetype');
 }
 
 @font-face {
     font-family: "karol-sans-regular";
-    src: url('fonts/Karol_Sans_Regular.otf') format('truetype');
+    src: url('../fonts/Karol_Sans_Regular.otf') format('truetype');
 }
 
 @font-face {
     font-family: "karol-sans-bold";
-    src: url('fonts/Karol_Sans_Bold.otf') format('truetype');
+    src: url('../fonts/Karol_Sans_Bold.otf') format('truetype');
 }
 
 @font-face {
     font-family: "karol-sans-regular-italic";
-    src: url('fonts/Karol_Sans_Regular_Italic.otf') format('truetype');
+    src: url('../fonts/Karol_Sans_Regular_Italic.otf') format('truetype');
 }
 
 body {
@@ -151,11 +151,18 @@ div.current-band {
 
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url('img/wallpaper_home.png');
+    url('../img/wallpaper_home.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+div.ian_hill, div.rob_halford, div.glenn_tipton, div.scott_travis, div.ritchie_faulkner{
+    max-width: 75%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ============================================================================================================
@@ -377,7 +384,7 @@ footer p {
     max-height: 0;
     overflow: hidden;
     transition: max-height .6s ease-in-out;
-    scroll-margin-top: 150px; /* Ajuste l'affichage selon la hauteur de ta navbar */
+    scroll-margin-top: 150px; /* Ajuste l'affichage selon la hauteur de la navbar */
 }
 
 .accordeon ol {
@@ -386,7 +393,7 @@ footer p {
 
 /* La div ciblée s’ouvre */
 .accordeon:target {
-    max-height: 1000px; /* suffisamment grand */
+    max-height: 1500px; /* suffisamment grand */
     padding: 15px;
 }
 
